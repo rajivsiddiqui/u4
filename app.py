@@ -3,7 +3,8 @@ from flask.logging import create_logger
 import logging
 
 import pandas as pd
-import joblib
+#import joblib
+from sklearn.externals import joblib
 from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
@@ -68,7 +69,7 @@ def predict():
 
 if __name__ == "__main__":
     # load pretrained model as clf
-#    clf = joblib.load("./model_data/boston_housing_prediction.joblib")
+#     clf = joblib.load("./model_data/boston_housing_prediction.joblib")
     
     import os
     dir_path = os.path.dirname(os.path.realpath(__file__))

@@ -1,6 +1,6 @@
-FROM python:3.7.3-stretch
+FROM python:3.7-stretch
 
-
+#3.7.3
 #3.8.10
 
 ## Step 1:
