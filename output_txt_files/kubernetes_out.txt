@@ -1,1 +1,8 @@
 <paste log output from Kubernetes-mediated prediction, here>
+(.devops) rajiv@ubuntu-A:~/u4$ sudo ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "udacitydevops" already exists
+NAME            READY   STATUS    RESTARTS   AGE
+udacitydevops   1/1     Running   0          63m
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
