@@ -1,0 +1,8 @@
+rajiv@ubuntu-A:~/u4$ sudo ./make_prediction.sh
+[sudo] password for rajiv:
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
