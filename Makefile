@@ -15,10 +15,10 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt &&\
 		pip install 'pylint<=2.4.4' &&\
-		pip install pytest &&\
-                wget -O ./hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
+		pip install pytest 
+hadolint:
+        wget -O ./hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
                 chmod +x ./hadolint
-
 
 test:
 	# Additional, optional, tests could go here
